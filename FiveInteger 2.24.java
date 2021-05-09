@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
  public class FiveInteger{
@@ -60,14 +61,18 @@ import java.util.Scanner;
 	 int smallest = 0;
 
 
-if(number1<number2)
+if(number1<number2){ 
 smallerOfFirstAndSecond = number1;
-if(number2<number1)
+}
+if(number2<number1){
 smallerOfFirstAndSecond = number2;
-if(number3<number4)
+}
+if(number3<number4){
 smallerOfThirdAndForth = number3;
-if(number4<number3)
+}
+if(number4<number3){
 smallerOfThirdAndForth = number4;
+}
 
 	if(smallerOfThirdAndForth<smallerOfFirstAndSecond)
 	    smallerOfFirstSecondThirdForth = smallerOfThirdAndForth;
